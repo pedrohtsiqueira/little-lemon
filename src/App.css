@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+header * {
+  margin: 31px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul * {
+  margin: 14px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+footer *{
+  margin: 14px;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+footer img {
+  border: solid;
+}
+
+
+footer .title {
+  color:green;
+  font-weight: bold;
+}

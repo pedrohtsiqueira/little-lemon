@@ -3,29 +3,33 @@
 export default function Footer() {
     return (
         <footer>
-            <h1>Doormat Navigation</h1>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order Online</li>
-                <li>Login</li>
-            </ul>
+            <img width="200" height="300"/>
             
-            <h1>Contact</h1> 
-            <ul>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
-            </ul> 
-            
-            <h1>Social Media</h1>
-            <ul>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
-            </ul> 
+            <div>
+                <ul>
+                    <li className="title">Doormat Navigation</li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Reservations</li>
+                    <li>Order Online</li>
+                    <li>Login</li>
+                </ul>
+
+                <ul>
+                    <li className="title">Contact</li>
+                    <li>Address</li>
+                    <li>Phone Number</li>
+                    <li>Email</li>
+                </ul> 
+
+                <ul>
+                    <li className="title">Social Media</li>
+                    <li>Address</li>
+                    <li>Phone Number</li>
+                    <li>Email</li>
+                </ul>
+            </div> 
         </footer>
     )
 

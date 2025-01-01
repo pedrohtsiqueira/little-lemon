@@ -7,7 +7,7 @@ export default function Footer() {
             
             <div>
                 <ul>
-                    <li className="title">Doormat Navigation</li>
+                    <h4>Doormat Navigation</h4>
                     <li>Home</li>
                     <li>About</li>
                     <li>Menu</li>
@@ -17,14 +17,14 @@ export default function Footer() {
                 </ul>
 
                 <ul>
-                    <li className="title">Contact</li>
+                    <h4>Contact</h4>
                     <li>Address</li>
                     <li>Phone Number</li>
                     <li>Email</li>
                 </ul> 
 
                 <ul>
-                    <li className="title">Social Media</li>
+                    <h4>Social Media</h4>
                     <li>Address</li>
                     <li>Phone Number</li>
                     <li>Email</li>

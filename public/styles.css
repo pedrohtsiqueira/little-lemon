@@ -1,0 +1,246 @@
+/* display title*/
+h1 {
+    font-family: "Markazi Text";
+    font-size: 64px;
+    line-height: 0.75;
+    margin:0px;
+}
+
+/* sub title*/
+h2 {
+    font-family: "Markazi Text";
+    font-size: 40px;
+    line-height: 0.75;
+    margin: 0px;
+}
+
+/* section title*/
+h3 {
+    font-family: "Karla";
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* card title*/
+h4 {
+    font-family: "Karla";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* section categories - this week specials*/
+h5, button {
+    font-family: "Karla";
+    font-size:16px;
+    font-weight: 800; 
+}
+
+
+p.lead {
+    font-family:"Karla";
+    font-size:18px;
+    font-weight: 500;
+}
+
+
+p, li {
+    font-family: "Karla";
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 25ch;
+    margin: 20px 0 20px;
+}
+
+.price {
+    color: #EE9972;
+    font-weight: 500;
+}
+
+
+span {}
+
+nav {}
+
+ul {}
+
+img {
+    border-radius: 16px;
+}
+
+button { 
+    color:#333333;
+    background-color: #F4CE14;
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin: 10px 0px 10px;
+    border: none;
+
+}
+
+
+footer {
+    background-color: #495e57;
+    color:#EDEFEE;
+}
+
+footer *{
+    margin: 14px;
+}
+  
+footer img {
+    border: solid;
+}
+
+
+
+
+
+.CallToAction div {
+    background-color: #495e57;
+    color: #EDEFEE;
+    height: auto;
+    width: 100%;
+    padding: 20px 10% 20px;
+}
+
+
+.CallToAction img {
+    width: 325px; 
+    height: 375px;
+    object-fit: cover;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.CallToAction h1 {
+    color: #F4CE14;
+}
+
+.Specials {
+    padding-top: 150px;
+}
+
+.Specials > div  {
+    margin-right:40%;
+}
+
+.Specials .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15px 5px 15px;
+}
+
+.Specials .title * {
+    margin:0px;
+}
+
+
+/* card menu*/
+
+
+.Card {
+    background-color:#EDEFEE;
+    width: 265px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.Card .content {
+    padding: 20px;
+}
+
+.Card .content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Card .content div * {
+    margin: 0;
+}
+
+.Card img {
+    width: 265px;
+    height: 185px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.Ranking img{ 
+   width: 10%;
+   height: 10%;
+}
+
+
+.CustomersSays {
+    background-color: #495e57;
+    padding: 20px;
+}
+
+.CustomersSays h2 {
+    color:#EDEFEE;
+}
+
+.Testimonial {
+    background-color: #EDEFEE;
+    width:15%;
+    height:200px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+
+
+.Testimonial .photo {
+    width: 50px;
+    height: 50px;
+    border: solid;
+}
+
+.Testimonial .identifier {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+} 
+
+.Testimonial .identifier * {
+    margin:0px;
+}
+
+.Testimonial > * {
+    margin: 0px 0px 10px 0px;
+}
+
+
+.Chicago .content {
+    width: 30vw;
+    padding: 50px;
+}
+
+
+.Chicago .images { 
+    width: 70vw;
+    padding: 50px;
+}
+.Chicago img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.imgA { 
+    position: relative;
+    right: 25%;
+    top: 20%;
+}
+
+.imgB {
+    position: relative;
+    left: 25%;
+}
+
+

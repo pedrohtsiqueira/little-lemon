@@ -11,10 +11,10 @@ function App() {
       <meta name="og:title" content="Little Lemon Restaurant"/>
       <meta name="og:description" content="A restaurant for nature lovers"/>
       <meta name="og:image" content="./Logo.svg"/>
-      
       <Header/>
       <Main/>
       <Footer/>
+
     
     </>
   );

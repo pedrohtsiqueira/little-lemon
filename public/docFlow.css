@@ -1,0 +1,56 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header * {
+    margin: 31px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul * {
+    margin: 14px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+
+
+  footer > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+
+  .Specials .menu {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .Specials .menu .Card {
+    margin: 20px;
+  }
+
+  .CustomersSays > div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Chicago {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+

@@ -2,7 +2,7 @@ import {useState} from "react";
 
 
 
-export default function BookingForm({availableTimes, dispatch}) {
+export default function BookingForm({availableTimes, dispatch, submitForm}) {
     const style = { 
         display: "grid",
         maxWidth: "200px",

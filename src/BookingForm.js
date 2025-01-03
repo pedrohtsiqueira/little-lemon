@@ -2,7 +2,7 @@ import {useState} from "react";
 
 
 
-export default function BookingForm({availableTimes}) {
+export default function BookingForm({availableTimes, dispatch}) {
     const style = { 
         display: "grid",
         maxWidth: "200px",
@@ -14,9 +14,12 @@ export default function BookingForm({availableTimes}) {
     const [guests, setGuests] = useState("");
     const [occasion, setOccasion] = useState("");
     
+   
 
     function handleDate(event) {
-        setDate(event.target.value)
+        const date = event.target.value;
+        setDate(date);
+        dispatch({type : date});
     };
     
     function handleTime(event) {
@@ -31,6 +34,8 @@ export default function BookingForm({availableTimes}) {
         setOccasion(event.target.value)
     }
    
+   
+
     
     return (
         <form style={style}>
@@ -47,7 +52,7 @@ export default function BookingForm({availableTimes}) {
                 <option>Birthday</option>
                 <option>Annivesary</option>
             </select>
-            <input type="submit" value="Make your reservation"/>
+            <input type="submit" value="Make your reservation" onSubmit={dispatch}/>
         </form>
     )
 }

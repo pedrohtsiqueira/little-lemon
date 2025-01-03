@@ -33,7 +33,11 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
     function handleOccasion(event) {
         setOccasion(event.target.value)
     }
-   
+    
+    
+    function handleSubmit(event) {
+        submitForm();
+    }
    
 
     
@@ -52,7 +56,7 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
                 <option>Birthday</option>
                 <option>Annivesary</option>
             </select>
-            <input type="submit" value="Make your reservation" onSubmit={dispatch}/>
+            <input type="submit" value="Make your reservation" onSubmit={handleSubmit}/>
         </form>
     )
 }

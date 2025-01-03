@@ -38,12 +38,6 @@ const submitAPI = function(formData) {
 
 
 
-
-
-
-
-
-
 export default function Main() {
 
     const navigate = useNavigate();
@@ -51,14 +45,11 @@ export default function Main() {
 
 
     const updateTimes = (availableTimes, action) => {
-        
         return fetchAPI(new Date(action.type));
     }
     
     const initializeTimes = () => {
-
         return fetchAPI(new Date());
-    
     }
 
     const submitForm = (formData) => {
@@ -72,6 +63,7 @@ export default function Main() {
     
 
     console.log(availableTimes)
+
 
     return (
         <main>

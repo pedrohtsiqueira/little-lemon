@@ -6,10 +6,10 @@ export default function Nav () {
             <ul>
                 <Link to="/" className="nav-item">Home</Link> 
                 <Link to="/About" className="nav-item">About</Link>
-                <Link to="/Menu" className="nav-item">Menu</Link>
+                <li className="nav-item">Menu</li>
                 <Link to="/Booking" className="nav-item">Reservations</Link>
-                <Link to="/Order" className="nav-item">Order Online</Link>
-                <Link to="/Login" className="nav-item">Login</Link>
+                <li className="nav-item">Order Online</li>
+                <li className="nav-item">Login</li>
             </ul>
         </nav>
     );

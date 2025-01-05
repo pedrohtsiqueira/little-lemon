@@ -40,7 +40,7 @@ const submitAPI = function(formData) {
 
 export default function Main() {
 
-    const navigate = useNavigate();
+    let navigate = useNavigate();
 
 
 
@@ -54,16 +54,15 @@ export default function Main() {
 
     const submitForm = (formData) => {
         if (submitAPI(formData)) {
-            return navigate("/ConfirmedBooking");
+            return navigate("/Confirmation");
         }
     }
 
-
+    
     const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes());
     
 
-    console.log(availableTimes)
-
+   
 
     return (
         <main>

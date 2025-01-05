@@ -3,7 +3,7 @@
 export default function Footer() {
     return (
         <footer>
-            <img width="200" height="300"/>
+            <img src='.\Asset 18@4x.png'/>
             
             <div>
                 <ul>

@@ -36,27 +36,30 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
     
     
     function handleSubmit(event) {
-        submitForm();
+        event.preventDefault();
+        submitForm(event);
     }
-   
+    
 
     
     return (
-        <form style={style}>
-            <label htmlFor="res-date">Choose date</label>
-            <input type="date" id="res-date" onChange={handleDate}/>
-            <label htmlFor="res-time">Choose time</label>
-            <select id="res-time" onChange={handleTime}>
+        <form style={style} onSubmit={handleSubmit}>
+            <label htmlFor="res-date" >Choose date</label>
+            <input type="date" id="res-date" onChange={handleDate} required/>
+            <label htmlFor="res-time">Choose time</label>            
+            <select id="res-time" onChange={handleTime} required>
+                {console.log(availableTimes)}
                 {availableTimes.map(time => <option>{time}</option>)}
             </select>
             <label htmlFor="guests">Number of guests</label>
             <input type="number" placeholder="1" min="1" max="10" id="guests" onChange={handleGuests}/>
             <label htmlFor="occasion">Occasion</label>
-            <select id="occasion" onChange={handleOccasion}>
+            <select id="occasion" onChange={handleOccasion} placeholder='-' >
+                <option>-</option>
                 <option>Birthday</option>
                 <option>Annivesary</option>
             </select>
-            <input type="submit" value="Make your reservation" onSubmit={handleSubmit}/>
+            <input className="button" type="submit" value="Make your reservation" />
         </form>
     )
 }
